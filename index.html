@@ -11,22 +11,69 @@
     <p>¡Trae productos de segunda mano y recibe grandes descuentos!</p>
   </header>
 
+  <section id="galeria">
+    <h2>Galería de Productos</h2>
+    <div class="galeria">
+      <img src="img/bolso.jpg" alt="Bolso reciclado">
+      <img src="img/lampara.jpg" alt="Lámpara reciclada">
+      <img src="img/silla.jpg" alt="Silla restaurada">
+    </div>
+  </section>
+
   <section id="productos">
     <h2>Productos en Venta</h2>
     <div class="producto">
+      <img src="img/bolso.jpg" alt="Bolso reciclado">
       <h3>Bolso reciclado</h3>
       <p>Precio: S/ 35.00</p>
+      <button>Comprar</button>
     </div>
     <div class="producto">
-      <h3>Lámpara con materiales reciclados</h3>
+      <img src="img/lampara.jpg" alt="Lámpara reciclada">
+      <h3>Lámpara reciclada</h3>
       <p>Precio: S/ 45.00</p>
+      <button>Comprar</button>
     </div>
+    <div class="producto">
+      <img src="img/silla.jpg" alt="Silla restaurada">
+      <h3>Silla restaurada</h3>
+      <p>Precio: S/ 50.00</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="img/mesa.jpg" alt="Mesa reciclada">
+      <h3>Mesa reciclada</h3>
+      <p>Precio: S/ 80.00</p>
+      <button>Comprar</button>
+    </div>
+  </section>
+
+  <section id="registro">
+    <h2>Registro de Usuario</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo" required><br>
+      <input type="email" placeholder="Correo electrónico" required><br>
+      <input type="password" placeholder="Contraseña" required><br>
+      <button type="submit">Registrarse</button>
+    </form>
   </section>
 
   <section id="descuentos">
     <h2>Descuentos por reciclaje</h2>
-    <p>Trae productos como ropa usada, electrodomésticos en desuso o plástico y recibe hasta 30% de descuento.</p>
+    <p>Trae ropa usada, electrónicos, plásticos o metales y obtén hasta 30% de descuento.</p>
     <button onclick="mostrarMensaje()">Saber más</button>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required><br>
+      <input type="email" placeholder="Tu correo" required><br>
+      <textarea placeholder="Tu mensaje" required></textarea><br>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>Teléfono: +51 987 654 321</p>
+    <p>Email: contacto@reutilizaya.com</p>
   </section>
 
   <footer>
