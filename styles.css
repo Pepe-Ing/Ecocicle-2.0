@@ -1,0 +1,45 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef7f1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #3a7d44;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+.producto {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #3a7d44;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2d5c32;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
